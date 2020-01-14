@@ -1,0 +1,157 @@
+/* NAVBAR STYLING */
+.navbar{
+	border:2px solid #DBDBDB;
+	background-color:#202020;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #DBDBDB;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #DBDBDB;
+}
+
+/* IMAGE THUMBNAILS STYLING */
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0px;
+	background-color:#202020;
+	border:2px solid #DBDBDB;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+	height:350px;
+	width:240px;
+}
+
+.thumbnail.caption-full {
+    padding: 9px;
+}
+
+/* adding and editing outfits, and comments styling */
+
+/* overriding html blue on-click button shadow */
+button.btn.btn-lg.btn-primary.btn-block.new:active,
+button.btn.btn-lg.btn-primary.btn-block.new:focus,
+button.btn.btn-lg.btn-primary.btn-block.new:focus:active {
+  background-image: none;
+  outline: 0;
+  box-shadow: none;
+}
+button.btn.btn-lg.btn-primary.btn-block:active,
+button.btn.btn-lg.btn-primary.btn-block:focus,
+button.btn.btn-lg.btn-primary.btn-block:focus:active{
+	background-image: none;
+	outline: 0;
+	box-shadow: none;
+}
+button.btn.btn-danger:active,
+button.btn.btn-danger:focus,
+button.btn.btn-danger:focus:active{
+	background-image: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+button.btn.btn-lg.btn-primary.btn-block:hover{
+	background-color:#598055;
+	border-color:#598055;
+}
+
+
+.delete-form{
+	display:inline;
+}
+
+.jumbotron {
+  background-image: url("https://i.pinimg.com/originals/80/5c/b5/805cb5420a5c67d87b435131a6950ada.jpg");
+  background-size: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+.jumbotron a{
+	color: #DBDBDB;
+}
+
+.jumbotron p:first-of-type{
+	color: #DBDBDB;
+	font-size: 1.6em;
+}
+
+a{
+	color:white;
+}
+
+strong{
+	color:black;
+}
+
+p:first-of-type{
+	color: #DBDBDB;
+}
+p:nth-of-type(2){
+	color: #DBDBDB;
+}
+
+p.comment_content {
+  color: #202020;
+}
+
+
+
+a.btn.btn-primary:hover {
+    background-color:#598055;
+	border-color:#598055;
+}
+
+body{
+	background-color:#202020;
+}
+
+/* NEW COMMENT FORM STYLING */
+button.btn.btn-lg.btn-primary.btn-block.new:hover {
+    color: #fff;
+    background-color: #598055;
+    border-color: #598055;
+}
+
+
+#higher{
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.btn{
+	background-color:#3A5537;
+	border-color: #3A5537
+}
+
+a.bt.btn-primary:hover{
+	background-color:#598055;
+	border-color:#598055;
+}
+
+h4, h5, h6 {
+	color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/* Flexbox grid fix */
+.flex-wrap {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+h1{
+	color:white;
+}

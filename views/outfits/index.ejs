@@ -1,0 +1,34 @@
+<%- include("../partials/header"); -%>
+
+<div class="container">
+	<header class = "jumbotron">
+		<div class="container">
+			<div id="higher">
+				<h1>Name That Fit</h1>
+				<p>Fashion Nomenclature</p>
+				<p>
+					<a class="btn btn-primary" href="/outfits/new" role="button">Add new outfit</a>
+				</p>
+			</div>
+		</div>
+	</header>
+	<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+		<% outfits.forEach(function(outfit){ %>
+		<div class="col-lg-3 col-md-4 col-sm-6">
+			<div class="thumbnail">
+				<img src="<%=outfit.image %>">
+				<div class="caption">
+					<span><h4><%=outfit.name%></h4></span>
+				</div>
+				<p>
+					<a href="/outfits/<%=outfit._id %>" class="btn btn-primary">More Information</a>
+				</p>
+			</div>
+		</div>
+
+	<% }); %>
+	</div>
+
+</div>
+
+<%- include("../partials/footer"); -%>

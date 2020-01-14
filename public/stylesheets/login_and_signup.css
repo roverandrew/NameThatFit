@@ -1,0 +1,41 @@
+body{
+		text-align:center;
+	}
+	h1{
+		color:white;
+	}
+	input{
+		color: black;
+	}
+	.alert{
+		text-align:left;
+	}
+	div{
+		display:block;
+	}
+	label{
+		color:white;
+		margin-right:10px;
+		font-size:16px;
+	}
+	button{
+		background-color: #3A5537;
+    	border-color: #3A5537;
+		border-radius:2px;
+		color:white;
+		font-size: 16px;
+  		cursor: pointer;
+		padding: 6px 12px;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+	}
+	button:focus {outline:0;}
+	button:hover{
+		background-color:#598055;
+		border-color:#598055;
+	}
+	input{
+		width:200px;
+		border-radius:1px;
+		border-color: none !important;
+	}
