@@ -33,27 +33,27 @@ var data = [
 ]
 
 //Remove outfits
-// function seedDB(){
-// 	Outfit.remove({},function(err){
-// 		if(err){
-// 			console.log(err);
-// 		} else{
-// 			console.log("Succesfully removed all outfits!");
-// 		}
-// 		//Add a few outfits
-// 		data.forEach(function(seed){
-// 			Outfit.create(seed,function(err,outfit){
-// 				if(err){
-// 					console.log(err);
-// 				} else{
-// 					console.log("added an outfit");
-//
-// 				}
-//
-// 		});
-// 	});
-// 	});
-// }
+function seedDB(){
+	Outfit.remove({},function(err){
+		if(err){
+			console.log(err);
+		} else{
+			console.log("Succesfully removed all outfits!");
+		}
+		//Add a few outfits
+		data.forEach(function(seed){
+			Outfit.create(seed,function(err,outfit){
+				if(err){
+					console.log(err);
+				} else{
+					console.log("added an outfit");
+
+				}
+
+		});
+	});
+	});
+}
 
 
 module.exports = seedDB;
