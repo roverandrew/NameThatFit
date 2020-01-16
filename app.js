@@ -51,7 +51,7 @@ app.use(function(req,res,next){
 });
 
 
-seedDB(); //Seed the database
+//seedDB(); //Seed the database
 
 app.use("/outfits", outfitRoutes);
 app.use("/outfits/:id/comments", commentRoutes);
