@@ -19,7 +19,7 @@ var outfitRoutes     = require("./routes/outfits"),
 
 
 //MISC VARIOUS REQUIREMENTS NEEDED
-mongoose.connect("mongodb+srv://admin-andrew:Test123@cluster0-atrlj.mongodb.net/NameThatFitDB");
+mongoose.connect("mongodb+srv://admin-andrew:Test123@cluster0-atrlj.mongodb.net/NameThatFitDB");//ADD TO .GITIGNORE
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
